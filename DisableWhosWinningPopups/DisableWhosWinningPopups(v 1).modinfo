@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="374cbad6-ee46-4478-a389-d7dfc61bfd17" version="1">
+  <Properties>
+    <Name>Disable Whos Winning Popups</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Remove the winning popups</Teaser>
+    <Description>Remove the winning popups</Description>
+    <Authors>STH</Authors>
+    <SpecialThanks>William Howard</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="d753dc085ff5b700155184c22c8ac8e0" import="0">LUA/DisableWhosWinningPopups.lua</File>
+  </Files>
+  <Actions />
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/DisableWhosWinningPopups.lua">
+      <Name>Remove the winning popups</Name>
+      <Description>Remove the winning popups</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
